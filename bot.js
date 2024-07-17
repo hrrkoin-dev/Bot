@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = process.env.KEY;
 
 
-const webAppUrl =process.env.url ;
+const webAppUrl =process.env.link ;
 
 // Create a bot 
 const bot = new TelegramBot(token, { polling: true });
